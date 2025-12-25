@@ -44,7 +44,8 @@ powershell -ExecutionPolicy Bypass -File Asura-SPG.ps1
 Run instantly without keeping any files (downloads to temp, runs, then deletes):
 
 ```powershell
-curl.exe -L https://raw.githubusercontent.com/asura0i0/Asura-SPG/main/Asura-SPG.ps1 -o $env:TEMP\Asura-SPG.ps1; powershell -ExecutionPolicy Bypass -File $env:TEMP\Asura-SPG.ps1; Remove-Item $env:TEMP\Asura-SPG.ps1
+
+Set-ExecutionPolicy -Scope Process Bypass -Force; irm https://raw.githubusercontent.com/asura0i0/Asura-SPG/main/Asura-SPG.ps1 | iex
 
 
 
