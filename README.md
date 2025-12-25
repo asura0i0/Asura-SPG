@@ -1,4 +1,4 @@
-\# Asura SPG (Secure Password Generator)
+# Asura SPG (Secure Password Generator)
 
 
 
@@ -6,38 +6,39 @@ Asura SPG is a stable PowerShell password generator with a simple UI.
 
 
 
-\## Features
+## Features
 
-\- G / N / C / E menu
+- G / N / C / E menu
 
-\- Rule editing via prompts
+- Rule editing via prompts
 
-\- No spaces in passwords
+- No spaces in passwords
 
-\- Optional symbols
+- Optional symbols
 
-\- No animations
+- No animations
 
-\- Clean and lightweight
+- Clean and lightweight
 
 
 
-\## Requirements
+## Requirements
 
-\- Windows
+- Windows
 
-\- PowerShell 5.1+
+- PowerShell 5.1+
 
-\## License
+## License
 
 This project is licensed under the MIT License.
 
 
-\## How to Run
+## How to Run
 
 ```powershell
 
-powershell -ExecutionPolicy Bypass -File Asura-SPG.ps1
+powershell -ExecutionPolicy Bypass -File genpass.ps1
+
 
 
 
