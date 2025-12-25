@@ -34,13 +34,14 @@ This project is licensed under the MIT License.
 
 ## One-Line Run (Windows)
 
-```powershell
+Run instantly without keeping any files (downloads to temp, runs, then deletes):
 
+```powershell
 curl.exe -L https://raw.githubusercontent.com/asura0i0/Asura-SPG/main/Asura-SPG.ps1 -o $env:TEMP\Asura-SPG.ps1; powershell -ExecutionPolicy Bypass -File $env:TEMP\Asura-SPG.ps1; Remove-Item $env:TEMP\Asura-SPG.ps1
 
-## How to Run
+## How to Run (after downloading)
 
-```powershell
+If you downloaded Asura-SPG.ps1 manually,ran the command:
 
 powershell -ExecutionPolicy Bypass -File Asura-SPG.ps1
 
