@@ -37,7 +37,7 @@ This project is licensed under the MIT License.
 
 ```powershell
 
-powershell -ExecutionPolicy Bypass -File genpass.ps1
+powershell -ExecutionPolicy Bypass -File Asura-SPG.ps1
 
 
 
