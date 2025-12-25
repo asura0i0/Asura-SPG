@@ -45,7 +45,7 @@ If you downloaded Asura-SPG.ps1 manually,ran the command:
 	powershell -ExecutionPolicy Bypass -File Asura-SPG.ps1
 
 
-## One-Line Run (Windows)
+## One-Line Run [(Windows)•You can use this tool without downloading anything.]
 
 Run instantly without keeping any files (downloads to temp, runs, then deletes):
 
