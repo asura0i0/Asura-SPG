@@ -32,6 +32,11 @@ Asura SPG is a stable PowerShell password generator with a simple UI.
 
 This project is licensed under the MIT License.
 
+## One-Line Run (Windows)
+
+```powershell
+
+curl.exe -L https://raw.githubusercontent.com/asura0i0/Asura-SPG/main/Asura-SPG.ps1 -o $env:TEMP\Asura-SPG.ps1; powershell -ExecutionPolicy Bypass -File $env:TEMP\Asura-SPG.ps1; Remove-Item $env:TEMP\Asura-SPG.ps1
 
 ## How to Run
 
